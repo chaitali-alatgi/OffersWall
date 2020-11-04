@@ -28,6 +28,7 @@ public class FormFragmentTest {
 
     @Test
     public void checkIfDisplayed() {
+        activityTestRule.getScenario().recreate();
         onView(withId(R.id.et_app_id)).check(matches(withText("2070")));
         onView(withId(R.id.et_user_id)).check(matches(withText("superman")));
         onView(withId(R.id.et_token)).check(matches(withText("1c915e3b5d42d05136185030892fbb846c278927")));
@@ -35,6 +36,7 @@ public class FormFragmentTest {
 
     @Test
     public void checkIfOnProceedClicked() {
+        activityTestRule.getScenario().recreate();
         onView(withId(R.id.bt_proceed))
                 .perform(click())
                 .check(matches(isEnabled()));
