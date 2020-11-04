@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Offers Wall</string>
+    <string name="app_id">Application ID</string>
+    <string name="user_id">User ID</string>
+    <string name="token">Token</string>
+    <string name="proceed">Proceed</string>
+    <string name="invalid_input">Invalid Input</string>
+    <string name="network_connection">Please check the network connection</string>
+</resources>
