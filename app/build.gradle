@@ -52,7 +52,6 @@ dependencies {
     // AndroidJUnitRunner and JUnit Rules
     androidTestImplementation "androidx.test:runner:$androidx_test_version"
     androidTestImplementation "androidx.test:rules:$androidx_test_version"
-    androidTestImplementation "androidx.test.ext:junit-ktx:$androidx_test_version"
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
 
     // Expresso
